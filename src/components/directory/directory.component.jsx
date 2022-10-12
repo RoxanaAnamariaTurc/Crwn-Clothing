@@ -1,4 +1,5 @@
 import CategoryItem from "../category-item/category-item.component";
+import './directory.style.scss';
 
 
 const Directory = ({ categories }) =>
@@ -15,3 +16,4 @@ const Directory = ({ categories }) =>
 }
 
 export default Directory;
+
