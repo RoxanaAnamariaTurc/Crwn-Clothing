@@ -23,18 +23,18 @@ const CheckoutItem = ({ cartItem }) =>
             <ImagesContainer>
                 <img src={imageUrl} alt={`${name}`} />
             </ImagesContainer>
-            <BaseSpan>{name}</BaseSpan>
+            <BaseSpan> {name} </BaseSpan>
             <Quantity>
                 <ArrowContainer onClick={removeItemHandler}>
                     &#10094;
                 </ArrowContainer>
-                <ValueContainer>{quantity}</ValueContainer>
+                <ValueContainer> {quantity} </ValueContainer>
                 <ArrowContainer onClick={addItemHandler}>
                     &#10095;
                 </ArrowContainer>
             </Quantity>
 
-            <BaseSpan>{price}</BaseSpan>
+            <BaseSpan> £{price}</BaseSpan>
             <RemoveButtonContainer onClick={clearItemHandler}>&#10005;</RemoveButtonContainer>
         </CheckoutItemContainer>
     )
