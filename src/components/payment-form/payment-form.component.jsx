@@ -6,7 +6,7 @@ import { selectCartTotal } from '../../store/cart/cart.selector';
 import { selectCurrentUser } from '../../store/user/user.selector';
 
 
-import Button, { BUTTON_TYPE_CLASSES } from '../button/button.component';
+import { BUTTON_TYPE_CLASSES } from '../button/button.component';
 import { PaymentFormContainer, FormContainer, PaymentButton } from './payment-form.style';
 
 const PaymentForm = () =>
@@ -31,26 +31,29 @@ const PaymentForm = () =>
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ amount: amount * 100 })
-        }).then((res) => res.json())
+            body: JSON.stringify({ amount: amount * 100 }),
+        }).then((res) => res.json()
+        )
+        // const clientSecret = response.paymentIntent.client_secret;
         const { paymentIntent: { client_secret } } = response;
+
         const paymentResult = await stripe.confirmCardPayment(client_secret, {
 
             payment_method: {
                 card: elements.getElement(CardElement),
                 billing_details: {
                     name: currentUser ? currentUser.displayName : 'Guest',
-                }
-            }
-        })
+                },
+            },
+        });
         setIsProcessingPayment(false);
         if (paymentResult.error)
         {
-            alert(paymentResult.error)
+            alert(paymentResult.error.message)
         } else
         {
             if (paymentResult.paymentIntent.status === 'succeeded')
-                alert('payment successful')
+                alert('Payment Successful')
         }
     }
 
@@ -59,7 +62,7 @@ const PaymentForm = () =>
             <FormContainer onSubmit={paymentHandler}>
                 <h2>Card Payment: </h2>
                 <CardElement />
-                <PaymentButton isLoading={isProcessingPayment} buttonType={BUTTON_TYPE_CLASSES.inverted}>Pay now</PaymentButton>
+                <PaymentButton buttonType={BUTTON_TYPE_CLASSES.inverted} isLoading={isProcessingPayment}>Pay now</PaymentButton>
             </FormContainer>
         </PaymentFormContainer>
 
