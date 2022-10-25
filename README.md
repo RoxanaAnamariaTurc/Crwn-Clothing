@@ -49,7 +49,7 @@ Some of the user stories for this project are below:
 * Fork and clone this project on your machine and use npm i to install dependecies
 * Use npm start to start the project on your local machine
 * Using the Netlify platform can connect the app to the server
-* Intall globally netlify on your machine using the command 
+* Install globally netlify on your machine using the command 
 ` npm install netlify-cli -g `
 * Once the installation is complete use `netlify` command to check that the installation is successful
 * Next use the command `netlify login` to login on their platform and then use `netlify dev` to start the server, you will be redirected to localhost:8888 where the app will be fully working
