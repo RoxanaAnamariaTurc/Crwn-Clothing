@@ -42,7 +42,7 @@ Some of the user stories for this project are below:
 * Transform the user stories into functional components
 * Set up the Firebase database and the authentication
 * Set up the Netlify platform for deployment
-* Web app deployed to Netlify and accessible at https://roaring-blancmange-11cd58.netlify.app/ 
+* Web app deployed to Netlify and accessible at https://6359786fd28bb20d210b177f--roaring-blancmange-11cd58.netlify.app/
 
 ### Getting Started
 
@@ -62,6 +62,6 @@ Some of the user stories for this project are below:
 
 ### Potential Next Steps for the Project
 
-* As next steps I am looking to fix an error I have at the moment for the payment functionality where this is not current working as expected on the localhost:3000 ,is only available on the netlify server.
+* To add more functionalities to the web app and make improvements
 
 * Other than that I will be using this project to further improve the styles, adding maybe more components and increase the products on the shop section.
