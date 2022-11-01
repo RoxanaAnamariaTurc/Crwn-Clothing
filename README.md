@@ -25,6 +25,36 @@ Some of the user stories for this project are below:
 * As a user,
   I would like to buy the products I like.
   
+  
+#### Wireframes
+
+* Home Page
+
+  ![B232A380-B8F2-4FFB-90B1-2153816720C1](https://user-images.githubusercontent.com/106086831/199217947-06ec14e8-e11f-45e0-be09-891a33a60a62.jpeg)
+
+* Product Page
+
+![01F57D0B-1DBE-4BBB-BB3C-0FFCF4AA179E](https://user-images.githubusercontent.com/106086831/199218073-0e2efaf3-f0c6-4ae4-8eec-7769e1687950.jpeg)
+
+* Shopping Cart Page
+
+![B8B205E7-42AA-4B8A-88FC-A81D03CB9CBF](https://user-images.githubusercontent.com/106086831/199218150-a213220b-b272-48aa-a3f4-d7dc5224047e.jpeg)
+
+* Sign in and Sign up Page
+
+![2ACD7F68-A51D-48E7-9442-CAE83655E464](https://user-images.githubusercontent.com/106086831/199218208-1180db2d-900b-4a3c-8afd-2b6bd623776c.jpeg)
+
+* Shop Page
+
+![02286C9B-2361-474A-BFCA-171E4C2DDC73](https://user-images.githubusercontent.com/106086831/199218253-76f0f6d0-5847-49f8-aced-eee1bc75f220.jpeg)
+
+* Concept map
+
+
+![Concept map](https://user-images.githubusercontent.com/106086831/199224447-6ee4f8bd-95cc-400e-945c-aebece2fa7c4.jpeg)
+
+
+
 
 ### Technologies Used
 
