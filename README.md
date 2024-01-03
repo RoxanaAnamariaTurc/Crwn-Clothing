@@ -72,7 +72,7 @@ Some of the user stories for this project are below:
 * Transform the user stories into functional components
 * Set up the Firebase database and the authentication
 * Set up the Netlify platform for deployment
-* Web app deployed to Netlify and accessible at https://6359786fd28bb20d210b177f--roaring-blancmange-11cd58.netlify.app/
+* Web app deployed to Netlify and accessible at [https://6359786fd28bb20d210b177f--roaring-blancmange-11cd58.netlify.app/](https://crwnclothing25.netlify.app/)
 
 ### Getting Started
 
